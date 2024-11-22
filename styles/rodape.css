@@ -1,0 +1,49 @@
+/* CONTAINER PAI */
+.rodape {
+    background-color: var(--cor-de-fundo-rodape);
+    display: flex;
+    flex-direction: column;
+    padding: 5em;
+    gap: 2em;
+    align-items: center;
+}
+
+/* TÍTULO DO RODAPÉ */
+.rodape__titulo {
+    font-size: 2.25em;
+    font-weight: 600;
+    color: var(--cor-titulo);
+}
+
+/* TEXTO DO RODAPÉ */
+.rodape__texto {
+    font-size: 1.25em;
+}
+
+/* CONTAINER CONTENDO O INPUT DE E-MAIL E BOTÃO DE CADASTRAR */
+.rodape__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    width: 100%;
+}
+
+/* INPUT DO E-MAIL */
+.rodape__container__email {
+    padding: 0.75em;
+    border: 1px solid var(--cor-borda-email);
+    border-radius: 10px;
+    width: 20%;
+    font-family: var(--fonte);
+}
+
+/* BOTÃO DE CADASTRAR */
+.rodape__container__botao {
+    all: unset;
+    cursor: pointer;
+    background-color: var(--cor-primaria);
+    color: var(--cor-de-fundo);
+    padding: 0.75em;
+    border-radius: 5px;
+}

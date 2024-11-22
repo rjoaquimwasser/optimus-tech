@@ -1,0 +1,29 @@
+/* ELEMENTO PAI */
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5em;
+    gap: 2em;
+    max-width: 80ch;
+}
+
+/* TEXTO DESTAQUE */
+.banner__texto-destaque {
+    color: var(--cor-primaria);
+    font-weight: 600;
+}
+
+/* TITULO DO BANNER */
+.banner__titulo {
+    color: var(--cor-titulo);
+    font-size: 3em;
+    font-weight: 600;
+}
+
+/* TEXTO DO BANNER */
+.banner__texto {
+    font-size: 1.25em;
+}

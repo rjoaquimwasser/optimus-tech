@@ -1,0 +1,88 @@
+/* ELEMENTO PAI DA SEÇÃO DE VAGAS*/
+.vagas {
+    display: flex;
+    flex-direction: column;
+    padding: 5em;
+}
+
+/* CONTAINER QUE ABRANGE TODOS OS TEXTOS */
+.vagas__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    padding: 4em 0 5em 0;
+}
+
+/* TEXTO: VAGAS ABERTAS */
+.vagas__container__descricao {
+    font-size: 0.875em;
+    font-weight: 500;
+    color: var(--cor-primaria);
+    background-color: var(--cor-de-fundo-vagas-descricao);
+    padding: 0.5em;
+    border-radius: 0.875rem;
+}
+
+/* TÍTULO DA SEÇÃO DE VAGAS */
+.vagas__container__titulo {
+    font-size: 2.25em;
+    font-weight: 600;
+    color: var(--cor-titulo);
+}
+
+/* TEXTO DA SEÇÃO DE VAGAS */
+.vagas__container__texto {
+    font-size: 1.25em;
+}
+
+/* ELEMENTO PAI DA SEÇÃO DE DESCRICAO DAS VAGAS */
+.descricao-das-vagas {
+    padding: 0 25em 0 25em;
+}
+
+/* ELEMENTO PAI DAS DIVS */
+.descricao-das-vagas__caixa {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+/* CATEGORIA DA VAGA */
+.descricao-das-vagas__categoria {
+    font-size: 1.25em;
+    font-weight: 500;
+    color: var(--cor-titulo);
+}
+
+/* CONTAINER COM BORDA */
+.descricao-das-vagas__caixa__container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--cor-da-borda);
+    border-radius: 10px;
+    gap: 3em;
+    padding: 1em;
+}
+
+/* TITULO DENTRO DO CONTAINER COM BORDA */
+.descricao-das-vagas__caixa__container__titulo {
+    font-size: 1.125em;
+    font-weight: 500;
+    color: var(--cor-titulo);
+}
+
+.descricao-das-vagas__caixa__container:nth-child(3) {
+    margin-bottom: 2em;
+}
+
+/* ELEMENTO PAI DOS TEXTOS HORIZONTAIS DENTRO DO CONTAINER COM BORDA */
+.descricao-das-vagas__caixa__container__informacoes {
+    display: flex;
+    gap: 2em;
+}
+
+/* TEXTOS HORIZONTAIS DENTRO DO CONTAINER COM BORDA */
+.descricao-das-vagas__caixa__container__informacoes__texto {
+    font-weight: 500;
+}

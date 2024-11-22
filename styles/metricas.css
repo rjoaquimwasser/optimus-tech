@@ -1,0 +1,29 @@
+/* ELEMENTO PAI */
+.metricas {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 2em 6em;
+}
+
+/* ELEMENTO FILHO */
+.metricas__container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 300px;
+}
+
+/* TITULO */
+.metricas__titulo {
+    color: var(--cor-primaria);
+    font-size: 60px;
+    font-weight: 600;
+}
+
+/* DESCRIÇÃO */
+.metricas__descricao {
+    color: var(--cor-titulo);
+    font-size: 18px;
+    font-weight: 500;
+}

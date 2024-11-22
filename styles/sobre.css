@@ -1,0 +1,50 @@
+/* ELEMENTO PAI */
+.sobre-nos {
+    margin: 8em;
+    padding: 4em;
+    background-color: var(--cor-secundaria);
+}
+
+/* TÍTULO E TAG SPAN */
+.sobre-nos__container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    text-align: center;
+    padding: 2em 0 3em 0;
+}
+
+/* TAG SPAN DO CONTAINER */
+.sobre-nos__container__descricao {
+    color: var(--cor-primaria);
+    font-size: 0.875em;
+    font-weight: 600;
+}
+
+/* TÍTULO DO CONTAINER */
+.sobre-nos__container__titulo {
+    display: inline-block;
+    color: var(--cor-titulo);
+    font-size: 2.25em;
+    font-weight: 500;
+}
+
+/* IMAGEM E DESCRIÇÃO DA COLABORADORA */
+.sobre-nos__detalhes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+/* NOME DA COLABORADORA */
+.sobre-nos__detalhes__nome {
+    font-weight: 500;
+    color: var(--cor-titulo)
+}
+
+/* CARGO DA COLABORADORA */
+.sobre-nos__detalhes__cargo {
+    font-size: 0.875em;
+}

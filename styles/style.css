@@ -1,0 +1,29 @@
+@import url("header.css");
+@import url("banner.css");
+@import url("metricas.css");
+@import url("vagas.css");
+@import url("sobre.css");
+@import url("rodape.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* CORES E FONTES DO PROJETO */
+:root {
+    --cor-de-fundo: #FFFFFF;
+    --cor-titulo: #101828;
+    --cor-texto: #667085;
+    --cor-primaria: #8E2424;
+    --cor-secundaria: #C3191908;
+    --cor-de-fundo-vagas-descricao: #8E24240D;
+    --cor-da-borda: #EAECF0;
+    --cor-de-fundo-rodape: #F9FAFB;
+    --cor-borda-email: #D0D5DD;
+    --fonte: "Inter", sans-serif;
+}
+
+/* CORPO DA PÁGINA */
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte);
+    font-weight: 400;
+    color: var(--cor-texto);
+}

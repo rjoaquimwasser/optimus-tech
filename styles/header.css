@@ -1,0 +1,42 @@
+/* ELEMENTO PAI */
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em 0;
+}
+
+/* MENU DO CABEÇALHO */
+.cabecalho__menu {
+    display: flex;
+    gap: 1.5em;
+}
+
+/* LINKS DO CABEÇALHO */
+.cabecalho__link {
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-weight: 500;
+}
+
+/* BOTÕES DO CABEÇALHO */
+.cabecalho__botoes {
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+    font-weight: 500;
+}
+
+/* ESTILO DOS BOTÕES */
+.botao {
+    all: unset;
+    cursor: pointer;
+}
+
+/* ESTILO DO BOTÃO DE CADASTRAR */
+.botao-secundario {
+    background-color: var(--cor-primaria);
+    color: var(--cor-de-fundo);
+    padding: 0.75em;
+    border-radius: 5px;
+}
